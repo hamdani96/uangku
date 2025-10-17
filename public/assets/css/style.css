@@ -39,9 +39,6 @@
     /* supaya selalu center di layar besar */
     background: #f5f5f5;
     min-height: 100vh;
-    /* biar full tinggi layar */
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    /* opsional biar kaya app */
 }
 
 body {
