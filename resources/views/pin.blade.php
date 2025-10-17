@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <meta name="theme-color" content="#00A86B">
+    <link rel="apple-touch-icon" href="{{ asset('assets/images/logo/icon-512x512.png') }}">
     <title>Login PIN</title>
     <link rel="icon" type="image/png" href="{{ asset('assets/images/logo.png') }}">
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" crossorigin="anonymous">
