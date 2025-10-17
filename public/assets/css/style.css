@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00c389;
+}
+
+.nav-link {
+    color: #000000;
+    font-size: small;
+}
+
+.nav-link:hover {
+    color: #00c389;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #00c389;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #00c389;
+    border: none;
+}
+
+.mobile-wrapper {
+    max-width: 500px;
+    /* ukuran typical mobile */
+    margin: 0 auto 8rem auto;
+    /* supaya selalu center di layar besar */
+    background: #f5f5f5;
+    min-height: 100vh;
+    /* biar full tinggi layar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    /* opsional biar kaya app */
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.header-box {
+    background-color: #00c389;
+    color: #fff;
+    padding: 20px;
+    /* border-radius: 0 0 20px 20px; */
+    /* text-align: center; */
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.card-custom {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.expense-card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.badge-category {
+    background: #e3f2fd;
+    color: #1976d2;
+    font-size: 12px;
+    padding: 5px 13px;
+    border-radius: 50px;
+}
+
+.expense-price {
+    color: #1976d2;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.expense-date {
+    font-size: 12px;
+    color: #888;
+}
+
+.bottom-nav {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 20px;
+    width: 260px;
+    /* bisa disesuaikan */
+    z-index: 1100;
+}
+
+.bottom-nav .nav-item {
+    color: #999;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.bottom-nav .nav-item.active,
+.bottom-nav .nav-item:hover {
+    color: #0abf53;
+    /* hijau sesuai tombol tambah */
+}
+
+.bottom-nav .nav-item.add-btn {
+    background: #0abf53;
+    color: #fff;
+    border-radius: 50%;
+    padding: 12px 14px;
+    font-size: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
